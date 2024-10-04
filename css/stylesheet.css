@@ -1,0 +1,41 @@
+/* Images */
+
+.section1 {
+    background-image: url(../images/Beast_Duck_Tourtiere.0.jpg);
+}
+
+.section2 {
+    background-image: url(../images/feature-image-food.jpg);
+}
+
+.section3 {
+    background-image: url(../images/Good_Food_Display_-_NCI_Visuals_Online.jpg);
+}
+
+.section4 {
+    background-image: url(../images/Lao_Lao.0.jpg);
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+
+/* Parallax effect */
+.section1, .section2, .section3, .section4 {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-attachment: fixed;
+   
+}
+
+.caption {
+    width: 300px;
+    height: 200px;
+    background: white;
+}
